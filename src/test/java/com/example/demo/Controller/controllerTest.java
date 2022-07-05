@@ -8,7 +8,7 @@ class controllerTest {
 
     @Test
     void sda(){
-        String s = "123";
-        assertThat(s).isNotNull();
+        controller controller = new controller();
+        assertThat(controller.add(1,2)).isEqualTo(3);
     }
 }

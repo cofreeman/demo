@@ -10,6 +10,5 @@ class controllerTest {
     void sda(){
         String s = "123";
         assertThat(s).isNotNull();
-
     }
 }
